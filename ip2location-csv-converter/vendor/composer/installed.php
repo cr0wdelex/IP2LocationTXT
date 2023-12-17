@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => '__root__',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '6bf1332fd8b3a60444fbc6ec073842913a837b7e',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '6bf1332fd8b3a60444fbc6ec073842913a837b7e',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'ip2location/ip2location-csv-converter' => array(
+            'pretty_version' => '1.2.7',
+            'version' => '1.2.7.0',
+            'reference' => '6317f86856fa8d0e383cdc21c6a18b8894109ebb',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../ip2location/ip2location-csv-converter',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'mlocati/ip-lib' => array(
+            'pretty_version' => '1.18.0',
+            'version' => '1.18.0.0',
+            'reference' => 'c77bd0b1f3e3956c7e9661e75cb1f54ed67d95d2',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../mlocati/ip-lib',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
